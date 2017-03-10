@@ -1,3 +1,5 @@
+// Adding all recipients of sent emails into a collection, updating contacts' names to the last name found for each email address
+
 var Mbox = require ('node-mbox');
 var simpleParser = require('mailparser').simpleParser;
 var MongoClient = require('mongodb').MongoClient;
